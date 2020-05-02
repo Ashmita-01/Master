@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Master</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account ? Sign up</string>
+    <string name="login">Login</string>
+    <string name="enter_password">Password</string>
+    <string name="enter_email_or_phone_number">  Email</string>
+    <string name="register">Register</string>
+    <string name="have_an_account_login">Have an account ? LOGIN</string>
+<<<<<<< HEAD
+    <string name="email">Email</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_password">Enter your Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="re_enter_password">Confirm password</string>
+=======
+    <string-array name="Duartion_array">
+        <item>15 Days</item>
+        <item>30 Days</item>
+        <item>45 Days</item>
+        <item>60 Days</item>
+    </string-array>
+    <string-array name="Course_array">
+        <item>1. Android Basics: User Interface</item>
+        <item>2. Android Basics: User Input</item>
+        <item>3. Android Multi-Screen Apps</item>
+        <item>4. Android Networking</item>
+        <item>5. Android Data Storage</item>
+        <item>6. Android Material Designing </item>
+        <item>7. Java Programming</item>
+        <item>8. Kotlin Programming</item>
+        <item>9. Android architecture</item>
+    </string-array>
+    <string-array name="Project_array">
+        <item>1. Expense Manager App</item>
+        <item>2. Job Portal App</item>
+        <item>3. Task Manager App</item>
+        <item>4. Quiz App</item>
+        <item>5. Ballon Shooter App</item>
+        <item>6. Women Safety App</item>
+        <item>7. Notes App</item>
+    </string-array>
+>>>>>>> 7ba45fba1a2c566d123325dd386aa0e0bcb66d95
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:hint="@string/enter_email_or_phone_number"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/linear_activity_in_activity_first_run_second_background_on_focus"/>
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:hint="@string/enter_password"
+        android:layout_below="@+id/username"
+        android:textSize="25sp"
+       android:layout_alignStart="@+id/username"
+        android:layout_alignLeft="@+id/username" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/login"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/password"/>
+
+    <TextView
+        android:id="@+id/signup_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/don_t_have_an_account_sign_up"
+        android:textSize="20sp"
+        android:layout_below="@+id/login_btn"
+        android:layout_centerHorizontal="true"/>
+<<<<<<< HEAD
+=======
+
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signup_textview"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+
+
+
+
+
+>>>>>>> 7ba45fba1a2c566d123325dd386aa0e0bcb66d95
+</RelativeLayout>

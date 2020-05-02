@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4E6D85"
+    tools:context=".SignUpActivity">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/linear_activity_in_activity_first_run_second_background_on_focus"
+        android:hint="@string/enter_email_or_phone_number"
+        android:padding="5dp"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_alignStart="@+id/username"
+        android:layout_alignLeft="@+id/username"
+        android:layout_alignEnd="@+id/username"
+        android:layout_alignRight="@+id/username"
+        android:background="@drawable/linear_activity_in_activity_first_run_second_background_on_focus"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"
+        android:padding="5dp"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/Register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:text="@string/register"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/login_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Register_btn"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:text="@string/have_an_account_login"
+        android:textSize="20sp" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_textview"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone" />
+
+
+</RelativeLayout>
